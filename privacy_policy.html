@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Política de Privacidad de Focus Lock - App para bloquear distracciones durante sesiones de enfoque">
+    <title>Política de Privacidad - Focus Lock</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a202c;
+            background-color: #f7fafc;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #0b6efd;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .app-name {
+            color: #00c2a8;
+            font-weight: 600;
+        }
+
+        .last-updated {
+            color: #718096;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #edf2f7;
+        }
+
+        h2 {
+            color: #2d3748;
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        h3 {
+            color: #4a5568;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #2d3748;
+            font-weight: 600;
+        }
+
+        .highlight-box {
+            background-color: #ebf8ff;
+            border-left: 4px solid #0b6efd;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .contact-info {
+            background-color: #f0fff4;
+            border: 1px solid #00c2a8;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .contact-info h3 {
+            color: #00c2a8;
+            margin-top: 0;
+        }
+
+        a {
+            color: #0b6efd;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #edf2f7;
+            color: #718096;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidad</h1>
+        <p class="app-name">Focus Lock</p>
+        <p class="last-updated"><strong>Última actualización:</strong> 10 de febrero de 2026</p>
+
+        <div class="highlight-box">
+            <p><strong>En resumen:</strong> Focus Lock respeta tu privacidad. Todos los datos de tus sesiones de enfoque, apps bloqueadas y estadísticas se almacenan únicamente en tu dispositivo. No recopilamos, compartimos ni vendemos tu información personal.</p>
+        </div>
+
+        <h2>1. Introducción</h2>
+        <p>Esta Política de Privacidad describe cómo Focus Lock ("nosotros", "nuestro" o "la aplicación") maneja la información cuando utilizas nuestra aplicación móvil. Nos comprometemos a proteger tu privacidad y a ser transparentes sobre nuestras prácticas de datos.</p>
+
+        <h2>2. Información que Recopilamos</h2>
+        
+        <h3>2.1 Datos Almacenados Localmente</h3>
+        <p>Focus Lock almacena la siguiente información <strong>únicamente en tu dispositivo</strong>:</p>
+        <ul>
+            <li><strong>Sesiones de enfoque:</strong> Fecha, hora de inicio/fin, duración y estado (completada/fallida)</li>
+            <li><strong>Lista de aplicaciones bloqueadas:</strong> Nombres y paquetes de las apps que eliges bloquear durante tus sesiones</li>
+            <li><strong>Intentos de distracción:</strong> Registro de cuándo intentaste acceder a apps bloqueadas durante una sesión activa</li>
+            <li><strong>Preferencias de usuario:</strong> Configuración de la app (tema oscuro/claro, notificaciones)</li>
+            <li><strong>Estado de suscripción premium:</strong> Si has adquirido funciones premium mediante compra dentro de la app</li>
+        </ul>
+
+        <h3>2.2 Permisos Requeridos</h3>
+        <p>Para funcionar correctamente, Focus Lock requiere los siguientes permisos:</p>
+        <ul>
+            <li><strong>Acceso a estadísticas de uso (Usage Access):</strong> Necesario para detectar qué aplicación está en primer plano y mostrar la pantalla de bloqueo cuando intentas abrir una app bloqueada durante una sesión activa</li>
+            <li><strong>Servicio en primer plano (Foreground Service):</strong> Permite que la app continúe monitoreando las apps bloqueadas incluso cuando no está visible</li>
+            <li><strong>Notificaciones:</strong> Para informarte del inicio/fin de sesiones y mostrar la notificación persistente del servicio en primer plano</li>
+            <li><strong>No Molestar (opcional):</strong> Si decides activar el modo DND durante las sesiones, necesitamos este permiso para silenciar notificaciones</li>
+        </ul>
+
+        <div class="highlight-box">
+            <p><strong>Importante:</strong> Estos permisos se utilizan exclusivamente para las funciones de bloqueo de apps y enfoque. No accedemos a contenidos de otras aplicaciones, mensajes, contactos o cualquier otra información personal.</p>
+        </div>
+
+        <h2>3. Cómo Usamos Tu Información</h2>
+        <p>Focus Lock utiliza los datos mencionados anteriormente para:</p>
+        <ul>
+            <li>Ejecutar sesiones de enfoque y bloquear el acceso a las aplicaciones seleccionadas</li>
+            <li>Mostrar estadísticas personales de tu progreso y tiempo enfocado</li>
+            <li>Enviar notificaciones locales sobre el estado de tus sesiones</li>
+            <li>Mejorar tu experiencia de usuario y el funcionamiento de la app</li>
+        </ul>
+        <p><strong>No utilizamos tus datos para:</strong></p>
+        <ul>
+            <li>Publicidad personalizada</li>
+            <li>Venta o intercambio de información con terceros</li>
+            <li>Análisis de comportamiento o perfilado</li>
+            <li>Ningún propósito fuera de las funciones principales de la app</li>
+        </ul>
+
+        <h2>4. Compartir Información con Terceros</h2>
+        <p><strong>No compartimos, vendemos ni alquilamos tu información personal a terceros.</strong></p>
+        
+        <h3>4.1 Servicios de Terceros Integrados</h3>
+        <p>La aplicación utiliza los siguientes servicios de terceros:</p>
+        <ul>
+            <li><strong>Google Play Billing:</strong> Para procesar compras dentro de la app. Google Play puede recopilar información de transacciones según su propia política de privacidad</li>
+            <li><strong>Firebase Crashlytics (opcional):</strong> Para detectar y solucionar errores. Solo recopila información técnica anónima sobre fallos de la app, no información personal</li>
+        </ul>
+
+        <h2>5. Seguridad de Datos</h2>
+        <p>Implementamos medidas de seguridad razonables para proteger la información almacenada en tu dispositivo:</p>
+        <ul>
+            <li>Uso de Flutter Secure Storage para datos sensibles</li>
+            <li>Cifrado local de preferencias mediante Hive</li>
+            <li>Sin transmisión de datos personales a servidores externos</li>
+        </ul>
+        <p>Sin embargo, ten en cuenta que ningún método de almacenamiento es 100% seguro y no podemos garantizar la seguridad absoluta.</p>
+
+        <h2>6. Retención y Eliminación de Datos</h2>
+        <p>Todos los datos se almacenan en tu dispositivo y permanecen allí hasta que:</p>
+        <ul>
+            <li>Elimines manualmente las sesiones o configuraciones dentro de la app</li>
+            <li>Desinstales la aplicación (esto elimina automáticamente todos los datos locales)</li>
+            <li>Borres los datos de la app desde la configuración de Android</li>
+        </ul>
+        <p><strong>Función Premium - Backup en la Nube (si está habilitada):</strong> Si activas la función de backup en la nube, una copia de tus sesiones y estadísticas se guardará en tu cuenta de Google/Firebase. Puedes eliminar estos backups en cualquier momento desde la configuración de la app.</p>
+
+        <h2>7. Menores de Edad</h2>
+        <p>Focus Lock está diseñada para usuarios mayores de 13 años. No recopilamos intencionalmente información de menores de 13 años. Si eres padre/madre y crees que tu hijo ha proporcionado información a través de la app, contáctanos para eliminarla.</p>
+
+        <h2>8. Compras Dentro de la App</h2>
+        <p>Focus Lock ofrece una versión premium mediante compra dentro de la app o suscripción. Estas transacciones son procesadas por Google Play Store. No tenemos acceso a tu información de pago (tarjeta de crédito, etc.). Solo recibimos confirmación de compra para desbloquear funciones premium.</p>
+
+        <h2>9. Cambios a esta Política de Privacidad</h2>
+        <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos de cualquier cambio significativo mediante:</p>
+        <ul>
+            <li>Una notificación dentro de la app</li>
+            <li>Actualización de la fecha "Última actualización" en la parte superior de este documento</li>
+        </ul>
+        <p>Te recomendamos revisar esta política periódicamente. El uso continuado de la app después de cambios constituye tu aceptación de la nueva política.</p>
+
+        <h2>10. Tus Derechos</h2>
+        <p>Como usuario de Focus Lock, tienes derecho a:</p>
+        <ul>
+            <li><strong>Acceder:</strong> Ver todos los datos almacenados en tu dispositivo dentro de la app</li>
+            <li><strong>Rectificar:</strong> Editar o corregir información incorrecta</li>
+            <li><strong>Eliminar:</strong> Borrar tus datos en cualquier momento desinstalando la app o borrando datos desde configuración</li>
+            <li><strong>Portabilidad:</strong> Exportar tus datos en formato CSV (función disponible en configuración)</li>
+        </ul>
+
+        <h2>11. Cumplimiento Legal</h2>
+        <p>Focus Lock cumple con:</p>
+        <ul>
+            <li>Reglamento General de Protección de Datos (GDPR) de la Unión Europea</li>
+            <li>Ley de Privacidad del Consumidor de California (CCPA)</li>
+            <li>Políticas de Google Play Store</li>
+        </ul>
+
+        <h2>12. Transparencia sobre el Acceso a Estadísticas de Uso</h2>
+        <div class="highlight-box">
+            <p><strong>¿Por qué necesitamos acceso a estadísticas de uso?</strong></p>
+            <p>Focus Lock requiere este permiso exclusivamente para detectar qué aplicación estás utilizando en cada momento. Esto nos permite mostrarte la pantalla de bloqueo cuando intentas abrir una app de tu lista bloqueada durante una sesión activa. No analizamos, almacenamos ni compartimos información sobre tu uso general de otras aplicaciones.</p>
+        </div>
+
+        <div class="contact-info">
+            <h3>13. Contacto</h3>
+            <p>Si tienes preguntas, inquietudes o solicitudes sobre esta Política de Privacidad o sobre cómo manejamos tus datos, puedes contactarnos en:</p>
+            <p><strong>Email:</strong> <a href="mailto:privacy@focuslock.app">privacy@focuslock.app</a></p>
+            <p><strong>Sitio web:</strong> <a href="https://github.com/tu-usuario/focus_lock" target="_blank">https://github.com/tu-usuario/focus_lock</a></p>
+            <p>Responderemos a tu consulta en un plazo máximo de 30 días.</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Focus Lock. Todos los derechos reservados.</p>
+            <p>Esta aplicación fue diseñada con el compromiso de respetar tu privacidad y ayudarte a mantener el enfoque.</p>
+        </div>
+    </div>
+</body>
+</html>
